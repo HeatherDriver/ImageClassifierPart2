@@ -11,7 +11,7 @@ def load_checkp_predict(checkpoint_filen, path_to_image, dev, topk):
     ''' Loads appropriate checkpoint file and then executes model prediction on image
         Arguments: checkpoint_filen  - Name of checkpoint file to load
                    path_to_image     - Path of image to use in prediction model
-                   dev               - Device to use - "Y" is gpu/cuda and "N" is spu
+                   dev               - Device to use - "Y" is gpu/cuda and "N" is cpu
                    top_k             - Return top k number of classes and probabilities
         Output: Probabilities and classifications as predicted by model
     '''       
